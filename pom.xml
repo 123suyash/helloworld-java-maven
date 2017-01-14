@@ -28,11 +28,11 @@
   </reporting>
   <distributionManagement>
   <snapshotRepository>
-    <id>HSBC_Suyash_Snap</id>
+    <id>hsbc</id>
     <url>http://54.171.181.49:8087/nexus/content/repositories/HSBC_Suyash_Snap</url>
   </snapshotRepository>
     <repository>
-    <id>HSBC_Suyash_Snap</id>
+    <id>hsbc</id>
     <url>http://54.171.181.49:8087/nexus/content/repositories/HSBC_Suyash_Rel</url>
   </repository>
 
