@@ -22,23 +22,21 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>2.10.4</version>
         <configuration>
-          ...
         </configuration>
       </plugin>
     </plugins>
   </reporting>
   <distributionManagement>
-  <repository>
-  <id>deployment</id>
-  <name>Internal Releases1</name>
-  <url>http://54.171.140.167:8081/nexus/content/repositories/releases/</url>
-  </repository>
- 
   <snapshotRepository>
-<id>deployment</id>
-<name>Internal Releases</name>
-<url>http://54.171.140.167:8081/nexus/content/repositories/snapshots/</url>
-</snapshotRepository>
+    <id>HSBC_Suyash_Snap</id>
+    <url>http://54.171.181.49:8087/nexus/content/repositories/HSBC_Suyash_Snap</url>
+  </snapshotRepository>
+    <repository>
+    <id>HSBC_Suyash_Rel</id>
+    <url>http://54.171.181.49:8087/nexus/content/repositories/HSBC_Suyash_Rel</url>
+  </repository>
+
+ 
 </distributionManagement>
 
 </project>
